@@ -1,5 +1,36 @@
 h1{ text-align: center; 
     color: brown;
+    }
+.body{
+    margin: 1;
+    background: linear-gradient(120eg,#2980,#be7abc);
+}
+.line{
+    width: fit-content;
+    background: RED;
     
+}
+.form{
+    border: 3px solid black;
+    justify-content: center;
+    width: fit-content;
+}
 
+#SPAN{
+    text-decoration: underline;
+    color: blueviolet;
+}
+#SUBMIT{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #be7abc;
+    padding: 8px;
+    margin: 8px;
+    color: aqua;
+    width: 90%;
+}
+#SUBMIT:hover{
+    background: #3cb0fd;
+    background-image: -o-repeating-linear-gradient(TOP,#3CB0FD,#3498);
+    text-decoration: none;
 }
